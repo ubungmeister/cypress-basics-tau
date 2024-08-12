@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node", "cypress-real-events"],
+    "baseUrl": "./",
+    "paths": {
+        "@fixtures/*" :[
+            "cypress/fixtures/*"
+        ]
+    },
+  },
+  "include": ["**/*.ts", "cypress/support/e2e.js"]
+}

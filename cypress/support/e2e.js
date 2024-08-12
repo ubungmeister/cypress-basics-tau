@@ -17,7 +17,8 @@ import '@applitools/eyes-cypress/commands'
 
 
 // Import commands.js using ES2015 syntax:
-import './commands'
+import "cypress-real-events/support"
+import "./commands/getByPlaceholder"
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
